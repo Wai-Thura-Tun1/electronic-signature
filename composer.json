@@ -1,7 +1,7 @@
 {
     "name": "electronic/signature",
     "description": "This is a electronic-signature pad.",
-    "type": "metapackage",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -17,7 +17,7 @@
         }
     },
     "extra": {
-        "laravel":{
+        "laravel": {
             "providers": [
                 "Electronic\\Signature\\SignatureServiceProvider"
             ]
