@@ -12,7 +12,7 @@ installion
 
 e.g. 
 
-<!DOCTYPE html>
+"<!DOCTYPE html>
 <html>
     <head>
         <title>Laravel</title>
@@ -23,7 +23,7 @@ e.g.
         <button type="button" class="clearSign"></button>
         <script src="{{ asset('signature/sign.js') }}"></script>
     </body>
-</html>
+</html>"
 
 Notice
 
