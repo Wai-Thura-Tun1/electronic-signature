@@ -28,7 +28,7 @@ Then you can customize class name in js file or whatever you want.
 Signature data will be passed into input tag when trigger mourse down event.
 Signature Data will be type of base64_encode
 
-Convert base64 data into image.
+>> Convert base64 data into image in laravel.
 
 e.g. Storage::put("signimg/sign1.jpeg",file_get_contents($request->signData));
 
