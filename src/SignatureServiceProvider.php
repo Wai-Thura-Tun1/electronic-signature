@@ -12,6 +12,6 @@ class SignatureServiceProvider extends ServiceProvider {
     }
 
     public function boot() {
-        $this->publishes([__DIR__.'/sign.js' => public_path('signature/sign.js')]);
+        $this->publishes([__DIR__.'/sign.js' => public_path('signature/sign.js')],'electronic-signature');
     }
 }
