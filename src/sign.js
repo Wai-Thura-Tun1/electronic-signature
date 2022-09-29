@@ -24,7 +24,7 @@ canvasTag.addEventListener("mouseup", () => {
     start = false;
     let url = canvasTag.toDataURL();
     if(!emptySign) {
-        signTag.value = url.split(',')[1];
+        signTag.value = url;
     }
     else {
         signTag.value = "";

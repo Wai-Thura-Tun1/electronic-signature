@@ -25,8 +25,11 @@ Notice
 After vendor:publish, js file of package will be copyed into public_path with this file path (signature/sign.js)
 Then you can customize class name in js file or whatever you want.
 
-Signature data will be passed into input tag when trigger mourse down event
+Signature data will be passed into input tag when trigger mourse down event.
+Signature Data will be type of base64_encode
 
+Convert base64 data into image.
 
+e.g. Storage::put("signimg/sign1.jpeg",file_get_contents($request->signData));
 
 
