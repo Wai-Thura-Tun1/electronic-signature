@@ -1,26 +1,19 @@
 {
     "name": "electronic/signature",
-    "description": "This is a electronic-signature pad.",
+    "description": "This is a pakcage for electronic/signature",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Wai-Thura-Tun",
-            "email": "scm.waithuratun@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {},
     "autoload": {
         "psr-4": {
             "Electronic\\Signature\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Electronic\\Signature\\SignatureServiceProvider"
-            ]
+    "authors": [
+        {
+            "name": "Wai-Thura-Tun1",
+            "email": "scm.waithruatun@gmail.com"
         }
-    }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
 }
