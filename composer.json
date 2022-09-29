@@ -11,6 +11,11 @@
     ],
     "minimum-stability": "dev",
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "Electronic\\Signature\\": "src/"
+        }
+    },
     "extra": {
         "laravel":{
             "providers": [
