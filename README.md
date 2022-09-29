@@ -14,7 +14,7 @@ e.g.
 
     <body>
         <canvas id="mycanvas"></canvas>
-        <input type="" class="mysign">
+        <input type="hidden" class="mysign" name="signData">
         <button type="button" class="clearSign"></button>
         <script src="{{ asset('signature/sign.js') }}"></script>
     </body>
@@ -24,6 +24,9 @@ Notice
 
 After vendor:publish, js file of package will be copyed into public_path with this file path (signature/sign.js)
 Then you can customize class name in js file or whatever you want.
+
+Signature data will be passed into input tag when trigger mourse down event
+
 
 
 

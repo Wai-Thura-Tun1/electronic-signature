@@ -43,5 +43,5 @@ canvasTag.addEventListener("mousemove", (event) => {
 });
 
 clearSignTag.addEventListener('click', function(){
-    canvasTag.clearRect(0,0,canvasTag.width,canvasTag.height);
+    context.clearRect(0,0,canvasTag.width,canvasTag.height);
 });
