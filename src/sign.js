@@ -1,5 +1,6 @@
 const canvasTag = document.getElementById("mycanvas");
 const context = canvasTag.getContext("2d");
+const clearSignTag = document.querySelector('.clearSign');
 let mourseX = 0;
 let mourseY = 0;
 let start = false;
@@ -19,7 +20,6 @@ canvasTag.addEventListener("mousedown", (event) => {
 });
 
 canvasTag.addEventListener("mouseup", () => {
-    console.log(emptySign);
     start = false;
     const signTag = document.querySelector(".mysign");
     let url = canvasTag.toDataURL();
@@ -40,4 +40,8 @@ canvasTag.addEventListener("mousemove", (event) => {
         mourseY = event.clientY - canvasTag.offsetTop;
         makeDraw();
     }
+});
+
+clearSignTag.addEventListener('click', function(){
+    canvasTag.clearRect(0,0,canvasTag.width,canvasTag.height);
 });
