@@ -12,18 +12,13 @@ installion
 
 e.g. 
 
-"<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
-    </head>
     <body>
         <canvas id="mycanvas"></canvas>
         <input type="" class="mysign">
         <button type="button" class="clearSign"></button>
         <script src="{{ asset('signature/sign.js') }}"></script>
     </body>
-</html>"
+
 
 Notice
 
