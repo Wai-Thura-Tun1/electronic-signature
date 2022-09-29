@@ -1,0 +1,21 @@
+{
+    "name": "electronic/signature",
+    "description": "This is a electronic-signature pad.",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wai-Thura-Tun",
+            "email": "scm.waithuratun@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel":{
+            "providers": [
+                "Electronic\\Signature\\SignatureProvider"
+            ]
+        }
+    }
+}
