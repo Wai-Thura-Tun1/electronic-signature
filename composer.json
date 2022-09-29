@@ -19,7 +19,7 @@
     "extra": {
         "laravel":{
             "providers": [
-                "Electronic\\Signature\\SignatureProvider"
+                "Electronic\\Signature\\SignatureServiceProvider"
             ]
         }
     }

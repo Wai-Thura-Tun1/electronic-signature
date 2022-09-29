@@ -4,7 +4,7 @@ namespace Electronic\Signature;
 
 use Illuminate\Support\ServiceProvider;
 
-class SignatureProvider extends ServiceProvider {
+class SignatureServiceProvider extends ServiceProvider {
 
     public function register()
     {
