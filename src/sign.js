@@ -22,15 +22,12 @@ canvasTag.addEventListener("mousedown", (event) => {
 
 canvasTag.addEventListener("mouseup", () => {
     start = false;
-
     let url = canvasTag.toDataURL();
     if(!emptySign) {
-        signTag.value = url;
-        return;
+        signTag.value = url.split(',')[1];
     }
     else {
         signTag.value = "";
-        return;
     }
 });
 
@@ -46,4 +43,5 @@ canvasTag.addEventListener("mousemove", (event) => {
 clearSignTag.addEventListener('click', function(){
     context.clearRect(0,0,canvasTag.width,canvasTag.height);
     signTag.value = "";
+    emptySign = true;
 });
